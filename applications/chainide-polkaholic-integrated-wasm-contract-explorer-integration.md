@@ -1,7 +1,7 @@
 # ChainIDE + Polkaholic.io WASM Contract Explorer Integration
 
 - **Team Name:** ChainIDE + Colorful Notion
-- **Payment Addresses:** Chain IDE + Colorful Notion [121Rs6fKm8nguHnvPfG1Cq3ctFuNAVZGRmghwkJwHpKxKjbx](https://polkaholic.io/account/DakP5k8XiY9DQbrCj23xdaUBEBxGrpJoenyB7bYDXWvtZbN?group=overview&chainfilters=all)
+- **Payment Addresses:** Chain IDE [15kdvsU1PnKCH9ShJ52cpiJmtmhSio4cPxwQK1pXgLrUGVSs](https://polkaholic.io/account/5GpLnYCwY13iqcSBLRycgZUd39ho2VWUKUCv9iqB8Fpx61QU?group=overview&chainfilters=all) + Colorful Notion [121Rs6fKm8nguHnvPfG1Cq3ctFuNAVZGRmghwkJwHpKxKjbx](https://polkaholic.io/account/DakP5k8XiY9DQbrCj23xdaUBEBxGrpJoenyB7bYDXWvtZbN?group=overview&chainfilters=all)
 
 ## Project Overview :page_facing_up:
 
