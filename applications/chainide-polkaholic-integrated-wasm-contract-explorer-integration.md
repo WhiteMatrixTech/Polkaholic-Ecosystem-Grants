@@ -6,7 +6,7 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-Chain IDE is a development environment for EVM Contracts being extended to include WASM Contract templates.  See [this video link](TBD) 
+[Chain IDE](https://chainide.com/) is a development environment for EVM Contracts being extended to include WASM Contract templates.  See [this video link](https://www.dropbox.com/s/o8gds1em05dkfq4/Astar%20ChainIDE%20Demo.mp4?dl=0) ([Testnet url](https://staging-9589904a8a.chainide.com/s/dashboard/projects))
 for a full demonstration of ChainIDE's usage for EVM + WASM Contract Development.
 
 [Polkaholic.io](https://polkaholic.io), developed by Colorful Notion, is a multichain block explorer for the Substrate ecosystem covering 75+ chains, including parachains
@@ -23,7 +23,14 @@ Initial milestones by Chain IDE to cover WASM Contracts have been completed whil
 ## Team :busts_in_silhouette:
 ### Key Team members
 - Colorful Notion: Sourabh Niyogi  + Michael Chung
-- Chain IDE: TBD
+- Chain IDE: 
+  - Xiao Wu, Founder of ChainIDE: https://www.linkedin.com/in/%E5%95%B8-%E5%90%B4-4727237a/?locale=en_US
+  - Tim Zhang,  Co-founder and CTO of ChainIDE, former Amazon star employee: https://www.linkedin.com/in/timzmatrixlabs/
+  - Alvin Sun, Chief Scientific Officer, CBC(Canadian Blockchain Consortium) Web3 Committee Member: https://www.linkedin.com/in/xinyao-alvin-sun/
+  - Jerry Zhang, Product Manager: https://www.linkedin.com/in/jerry-zhang-5a8820220/
+  - Leon Liu, Project Managerhttps://www.linkedin.com/in/leon-liu-b4a379117/
+
+
 
 ### Contact
 * **Contact Name:** Sourabh Niyogi
@@ -42,13 +49,14 @@ WASM+EVM) which we embed in our key projects Polkaholic.io, XCMGAR and
 Substrate-etl.
 
 ChainIDE:
-- **Registered Address:** TBD
-- **Registered Legal Entity:** TBD
-ChainIDE is a multi-chain contract development platform.
+- **Registered Address:** Vistra Corporate Services Centre, Wickhams Cay II, Road Town, Tortola, VG1110, British Virgin Islands
+- **Registered Legal Entity:** Matrix Global Inc.
+ChainIDE is a multi-chain tooling platform that provides one-stop development services for blockchain developers. By providing cloud-based user experiences, ChainIDE enables users to immediately begin developing decentralized applications with no configuration, without any pre-installation or requirements on their local system. It is designed to streamline the development process by providing a user-friendly interface and a suite of tools and services to help developers write, test, and deploy smart contracts and dApps.
+
 
 
 ### Team's experience
-ChainIDE.  TBD
+ChainIDE was founded in 2017. Our team has been working in the blockchain field for more than five years. The core members have a combined experience of more than ten years in computing science and more than five years in blockchain development experiments. Additionally, we have over 30 product developers and a research and development team comprising ten senior engineers to ensure our services and products' effective and high-quality delivery.
 
 Colorful Notion is led by Sourabh Niyogi and Michael Chung who have been active in blockchain engineering since 2017.  Key engineers Sourabh Niyogi and Michael Chung have developed Polkaholic.io since Fall 2021. Prior to building Polkaholic.io, Sourabh and Michael worked in decentralized social networking protocol development + privacy-preserving contact tracing (Wolk), mobile advertising real-time bidding algorithm design and analytics
 (CrossChannel/MdotM). Sourabh has founded social + web advertising startups (Social Media Networks) in the SF Bay and spent time doing computational cognitive science and machine vision research at MIT. Michael hails from UC Berkeley.  In the last year, Colorful Notion has worked closely with Parity Data on substrate-etl, many parachains with XCM GAR, and with many substrate parachains on polkaholic.io.  Colorful Notion is a member of Astar's dapps staking Program.
@@ -65,7 +73,7 @@ Chain IDE is actively completing the following Chain-Related functionality:
 * Astar Collator Node Sandbox
 * Swanky Sandbox (Swanky Suite) & EVM Sandbox
 * "One-click Start" of the Swanky Node Sandbox
-* Built-in Wallet (Wallet list is TBD) Plugin
+* Built-in Wallet (Polkadot{.js}, SubWallet, Math Wallet, Nova Wallet, and Talisman) Plugin
 * Wallet Panel (Network Connect，Account Management)
 * Contract Deployment Panel
 * Deployed Contract Interaction Panel
@@ -91,13 +99,13 @@ The goal of this milestone is to have a highly integrated WASM Contract Developm
 - **Costs:**  120,000 USD Total: 60,000 USD (Colorful Notion), 60,000 USD (ChainIDE)
 
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | MIT |
-| **0b.** | Polkaholic Documentation | Colorful Notion will provide (1) **inline documentation** of the indexing processes; (2) documentation of the WASM Contract APIs to retrieve indexed code hashes, contract addresses, and contract calls; (3) documentation of URL parameters to access the Polkaholic.io by code hash, contract address and extrinsic hash; (4) documentation of URL parameters to access developer + chain dashboards |
+|  Number | Deliverable               | Specification                                                |
+| ------: | ------------------------- | ------------------------------------------------------------ |
+| **0a.** | License                   | MIT                                                          |
+| **0b.** | Polkaholic Documentation  | Colorful Notion will provide (1) **inline documentation** of the indexing processes; (2) documentation of the WASM Contract APIs to retrieve indexed code hashes, contract addresses, and contract calls; (3) documentation of URL parameters to access the Polkaholic.io by code hash, contract address and extrinsic hash; (4) documentation of URL parameters to access developer + chain dashboards |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 1. | Repository | Additions to Polkaholic.io WASM indexing to poll ChainIDE for newly uploaded ABIs/verified WASM Contracts and decode contract calls
-| 2. | Repository | Additions to ChainIDE to link to WASM Contract Explorers, specifically Polkaholic.io
+|      1. | Repository                | Additions to Polkaholic.io WASM indexing to poll ChainIDE for newly uploaded ABIs/verified WASM Contracts and decode contract calls |
+|      2. | Repository                | Additions to ChainIDE to link to WASM Contract Explorers, specifically Polkaholic.io |
 
 Key integration points:
 1. [Colorful Notion] Provide ChainIDE with url endpoints to show the status of any:
@@ -158,4 +166,3 @@ Polkaholic.io’s interface will be able to support other WASM IDEs in very simi
 ## Additional Information :heavy_plus_sign:
 
 The Inkubator Bounty Program was recommended by Maarten Henskens, Sota Watanabe + Toma of Astar team.
-
