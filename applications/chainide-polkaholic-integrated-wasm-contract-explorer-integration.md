@@ -6,7 +6,7 @@
 ## Project Overview :page_facing_up:
 
 ### Overview
-[Chain IDE](https://chainide.com/) is a development environment for EVM Contracts being extended to include WASM Contract templates.  See [this video link](https://www.dropbox.com/s/o8gds1em05dkfq4/Astar%20ChainIDE%20Demo.mp4?dl=0) ([Testnet url](https://staging-9589904a8a.chainide.com/s/dashboard/projects))
+[ChainIDE](https://chainide.com/) is a development environment for EVM Contracts being extended to include WASM Contract templates.  See [this video link](https://www.dropbox.com/s/o8gds1em05dkfq4/Astar%20ChainIDE%20Demo.mp4?dl=0) ([Testnet url](https://staging-9589904a8a.chainide.com/s/dashboard/projects))
 for a full demonstration of ChainIDE's usage for EVM + WASM Contract Development.
 
 [Polkaholic.io](https://polkaholic.io), developed by Colorful Notion, is a multichain block explorer for the Substrate ecosystem covering 75+ chains, including parachains
@@ -138,7 +138,7 @@ The goal of this milestone is to support WASM Contract developers using ChainIDE
 
 WASM developers generally deploy on a no-cost testnet such as Shibuya and Rococo Contracts before deploying to a production chain such as Astar and Aleph Zero.  While Colorful Notion has indexed production chains Astar + Shiden (as well), it has not indexed testnet chains or solo chains.  Indexing of production chains is to be covered through a substrate-etl bounty covering Polkadot + Kusama parachains.  In addition, it is expected that many new WASM Contract developers will need technical support in understanding WASM Contracts generally and WASM Contract Development within ChainIDE and how operations appear within Polkaholic.io specifically.  For this support, ChainIDE and Colorful Notion would like to support adequately with education and debugging assistance within Telegram channels, Matrix channels, and Discord channels as deemed appropriate by the curators.  
 
-Colorful Notion expects to request 30,000 USD per chain to cover 6 months ($5K USD/mo), shared equally between the two teams to support 3 different development-oriented chains:
+Colorful Notion & ChainIDE expect to request 30,000 USD per chain to cover 6 months ($5K USD/mo), shared equally between the two teams to support 3 different development-oriented chains:
 * Shibuya [testnet]
 * Rococo Contracts [testnet]
 * Aleph Zero [solo chain + testnet]
