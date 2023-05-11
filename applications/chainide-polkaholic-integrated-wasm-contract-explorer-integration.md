@@ -1,7 +1,7 @@
 # ChainIDE + Polkaholic.io WASM Contract Explorer Integration
 
 - **Team Name:** ChainIDE + Colorful Notion
-- **Payment Addresses:** Chain IDE [15kdvsU1PnKCH9ShJ52cpiJmtmhSio4cPxwQK1pXgLrUGVSs](https://polkaholic.io/account/5GpLnYCwY13iqcSBLRycgZUd39ho2VWUKUCv9iqB8Fpx61QU?group=overview&chainfilters=all) + Colorful Notion [121Rs6fKm8nguHnvPfG1Cq3ctFuNAVZGRmghwkJwHpKxKjbx](https://polkaholic.io/account/DakP5k8XiY9DQbrCj23xdaUBEBxGrpJoenyB7bYDXWvtZbN?group=overview&chainfilters=all)
+- **Payment Addresses:** ChainIDE [15kdvsU1PnKCH9ShJ52cpiJmtmhSio4cPxwQK1pXgLrUGVSs](https://polkaholic.io/account/5GpLnYCwY13iqcSBLRycgZUd39ho2VWUKUCv9iqB8Fpx61QU?group=overview&chainfilters=all) + Colorful Notion [121Rs6fKm8nguHnvPfG1Cq3ctFuNAVZGRmghwkJwHpKxKjbx](https://polkaholic.io/account/DakP5k8XiY9DQbrCj23xdaUBEBxGrpJoenyB7bYDXWvtZbN?group=overview&chainfilters=all)
 
 ## Project Overview :page_facing_up:
 
@@ -18,12 +18,12 @@ In Remix and other EVM IDEs, EVM developers get a well-integrated experience whe
 3. have block explorers use 1+2 to show contract call decoding
 
 These 2 teams propose to provide the above well-integrated EVM development for WASM Contract Developers for all Substrate chains using the _contracts_ pallet.
-Initial milestones by Chain IDE to cover WASM Contracts have been completed while Colorful Notion has done the groundwork to decode+index WASM Contracts.
+Initial milestones by ChainIDE to cover WASM Contracts have been completed while Colorful Notion has done the groundwork to decode+index WASM Contracts.
 
 ## Team :busts_in_silhouette:
 ### Key Team members
 - Colorful Notion: Sourabh Niyogi  + Michael Chung
-- Chain IDE: 
+- ChainIDE: 
   - Xiao Wu, Founder of ChainIDE: https://www.linkedin.com/in/%E5%95%B8-%E5%90%B4-4727237a/?locale=en_US
   - Tim Zhang,  Co-founder and CTO of ChainIDE, former Amazon star employee: https://www.linkedin.com/in/timzmatrixlabs/
   - Alvin Sun, Chief Scientific Officer, CBC(Canadian Blockchain Consortium) Web3 Committee Member: https://www.linkedin.com/in/xinyao-alvin-sun/
@@ -69,7 +69,7 @@ Colorful Notion is led by Sourabh Niyogi and Michael Chung who have been active 
 
 ## Development Status :open_book:
 
-Chain IDE is actively completing the following Chain-Related functionality:
+ChainIDE is actively completing the following Chain-Related functionality:
 * Astar Collator Node Sandbox
 * Swanky Sandbox (Swanky Suite) & EVM Sandbox
 * "One-click Start" of the Swanky Node Sandbox
@@ -91,7 +91,7 @@ Colorful Notion has developed Proof-of-Concept WASM Contract Explorer functional
 - **Full-Time Equivalent (FTE):** 2
 - **Total Costs:** 120,000 USD Total: 60,000 USD (Colorful Notion), 60,000 USD (ChainIDE)
 
-### Milestone 1 - Integrated Chain IDE + Polkaholic.io WASM Contract Explorer
+### Milestone 1 - Integrated ChainIDE + Polkaholic.io WASM Contract Explorer
 
 The goal of this milestone is to have a highly integrated WASM Contract Development environment.
 - **Estimated duration:** 3 months (concluding July/August 2023)
